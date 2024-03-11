@@ -364,7 +364,7 @@ symbol used in the community. So the recommendation is to use `<-`.
 > > One way of answering this question in R is to use the `>` to set up the following:
 > > ```{r ch3-sol}
 > > mass > age
-> >```
+> > ```
 > > This should yield a boolean value of TRUE since `r mass` is greater than `r age`.
 > {: .solution}
 {: .challenge}

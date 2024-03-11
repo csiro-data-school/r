@@ -18,7 +18,10 @@ keypoints:
 source: Rmd
 ---
 
+
+
 ## Why should you use R?
+
 
 [What is R and what makes it different from the other software packages out there?](https://select-statistics.co.uk/blog/what-is-r-and-why-should-you-use-it/)
 R is designed specifically for statistical computing and graphics, and is able to perform any task associated with handling and manipulating data.
@@ -48,27 +51,25 @@ You can move the panels around in RStudio so that their arrangement suits you.
 
 ## Work flow within RStudio
 
+
 The best way to work with R is to write your commands inside .R files.
 1. Open and save a new .R file
 2. Write some lines of code.
-3. Use RStudio's short cut keys for the Run command to push the current line, selected lines, 
+3. Use RStudio's short cut keys for the Run command to push the current line, selected lines,
 or modified lines ot the interactive R console.
-4. You can rerun commands from the interactive console by using <kbd>&uparrow;</kbd>. This is useful for debugging. 
-2. Start writing in an .R file and use RStudio's short cut keys for the Run command
-to push the current line, selected lines or modified lines to the
-interactive R console.
-   * This is a great way to start; all your code is saved for later
+4. You can rerun commands from the interactive console by using <kbd>&uparrow;</kbd>. This is useful for debugging.
+
+Using this approach:
+   * All your code is saved for later
    * You will be able to run the file you create from within RStudio
    or using R's `source()`  function.
 
-![RStudio scripts](../fig/01-usingRscripts.png)
-
-
 > ## Discussion: the interactive console
-> You can also type commands directly into the interactive console. When might 
+> You can also type commands directly into the interactive console. When might
 > this be appropriate? What are the advantages / disadvantages?
 {: .discussion}
 
+![RStudio scripts](../fig/01-usingRscripts.png)
 > ## Tip: Running segments of your code
 >
 > RStudio offers you great flexibility in running code from within the editor
@@ -139,7 +140,7 @@ all be able to be regenerated from your scripts.
 
 > ## Tip: Good Enough Practices for Scientific Computing
 >
-> [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing/blob/gh-pages/good-enough-practices-for-scientific-computing.pdf) gives the following recommendations for project organization:
+> [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing/blob/gh-pages/good-enough-practices-for-scientific-computing.pdf) gives the following recommendations for project organisation:
 >
 > 1. Put each project in its own directory, which is named after the project.
 > 2. Put text documents associated with the project in the `doc` directory.
@@ -162,4 +163,6 @@ Now we have a good directory structure we will now place/save the data file in t
 >
 > We will load and inspect these data later.
 {: .challenge}
+
+
 
