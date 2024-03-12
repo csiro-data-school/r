@@ -51,7 +51,7 @@ but we have prepared a [csv version]({{ page.root }}{% link data/gapminder.csv %
 
 To load this data into R, we will use the `read_csv` function.
 For reading in different data formats, or for control of the import options,
-see the optional section on [reading data in to R]({{ page.root }}{% link _episodes/17-Additional-content---Reading-Data-In.md %}).
+see the optional section on [reading data in to R]({{ page.root }}{% link _episodes/05-Additional-content---Reading-Data-In.md %}).
 
 
 ~~~
@@ -175,7 +175,7 @@ colnames(gapminder)
 {: .output}
 
 The next row tells you the data type of each column, followed by the data itself. We won't discuss 
-data types in too much detail, but see [this section]({{ page.root }}{% link  _episodes/16-Additional-content---Data-types.md %}) 
+data types in too much detail, but see [this section]({{ page.root }}{% link  _episodes/03-Additional-content---Data-types.md %}) 
 for a full description.
 
 Should you need the data from a specific column, it can be accessed using the `$` notation.

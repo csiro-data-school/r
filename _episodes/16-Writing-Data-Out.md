@@ -19,7 +19,7 @@ source: Rmd
 
 At some point, you will probably want to write some data out from R when you have finished your
 analysis. Just as with the `read_csv` function (or other `read_XXX` functions we covered in the 
-[data import]({{ page.root }}{% link _episodes/17-Additional-content---Reading-Data-In.md %}) lesson), 
+[data import]({{ page.root }}{% link _episodes/05-Additional-content---Reading-Data-In.md %}) lesson), 
 there are various `write_XXX` functions to write data frames out in different formats. It is usually best to write 
 your data into a plain text format, particularly if you may need to use it again in later analysis.
 

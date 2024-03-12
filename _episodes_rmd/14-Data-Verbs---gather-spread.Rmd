@@ -23,7 +23,7 @@ gapminder <- read_csv("data/gapminder.csv")
 ```
 
 Having had some exposure to working with tidyverse functions, you might now understand
-why it is beneficial to work with [tidy data]({{ page.root }}{% link _episodes/04-Tidy-Data.md %}).
+why it is beneficial to work with [tidy data]({{ page.root }}{% link _episodes/06-Tidy-Data.md %}).
 These data manipulation functions are all designed to work easily with tidy data, leaving you with
 more time to actually try to answer questions with the data.
 
@@ -124,7 +124,7 @@ gap_long
 Inside `gather()` we first name the new column for the new ID variable (`obstype_year`), the name 
 for the new amalgamated observation variable (`obs_value`), then the names of the old observation 
 variable. We could have typed out all the observation variables, but since `gather()` can use all the same
-[helper functions]({{ page.root }}{% link _episodes/06-Data-Verbs---select.md %}#select-helper-functions)
+[helper functions]({{ page.root }}{% link _episodes/08-Data-Verbs---select.md %}#select-helper-functions)
 as the `select()` function can, we can use the `starts_with()` argument to select all variables
 that starts with the desired character string. Gather also allows the alternative
 syntax of using the `-` symbol to identify which variables are not to be

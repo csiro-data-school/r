@@ -27,7 +27,7 @@ start working with this data, we need to learn how to read it in to R.
 
 There are many different ways that data could be stored, but for now we will focus on 
 reading in tabular data. This is data that is already in a 
-[data frame]({{ page.root }}{% link _episodes/05-Dataframes.md %})-like structure and so we will 
+[data frame]({{ page.root }}{% link _episodes/07-Dataframes.md %})-like structure and so we will 
 want to read it in to R as a data frame. 
 
 Two of the most common ways you might find data like this are:
@@ -104,7 +104,7 @@ gapminder_csv
 Here, we can see that `read_csv` provides us with some information on what it thinks the data types 
 are as it reads the file in (two columns of character data and four columns of double in this case).
 We can also see that it has imported the data in the 
-[tibble format]({{ page.root }}{% link _episodes/05-Dataframes.md %}) discussed previously.
+[tibble format]({{ page.root }}{% link _episodes/07-Dataframes.md %}) discussed previously.
 
 Similarly, for the tsv file there is a `read_tsv` function
 
@@ -368,6 +368,6 @@ read_excel("data/gapminder.xlsx", range = "A1:E4")
 > newer R users. For this reason, we will stick with using the tidyverse equivalents where possible.
 > 
 > Regardless of the method chosen. After importing your data, it's always a good choice to check
-> it afterwards using the [data frame]({{ page.root }}{% link _episodes/05-Dataframes.md %}) 
+> it afterwards using the [data frame]({{ page.root }}{% link _episodes/07-Dataframes.md %}) 
 > exploration methods
 {: .callout}

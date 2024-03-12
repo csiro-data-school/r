@@ -32,7 +32,7 @@ A few other situations you may encounter when trying to clean your data up for a
 ## Handling of missing data
 
 Sometimes, missing data is not recorded as blank or`NA`, but as some other value. As discussed in the 
-[data import]({{ page.root }}{% link _episodes/17-Additional-content---Reading-Data-In.md %}) lesson, you can 
+[data import]({{ page.root }}{% link _episodes/05-Additional-content---Reading-Data-In.md %}) lesson, you can 
 define the missing data values on import with the `na` argument. But in some situations it might not
 be possible because you are importing from a very specialised data format or using a data frame 
 provided by someone else.
