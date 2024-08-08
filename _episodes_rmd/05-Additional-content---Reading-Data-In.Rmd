@@ -67,7 +67,7 @@ files (.xls or .xlsx) however, it is possible to read them in directly which we 
   
 ## Gapminder data {#gapminder}
 
-For this section, we will be reading in data from the [Gapminder](www.gapminder.org) organisation, 
+For this section, we will be reading in data from the [Gapminder](https://www.gapminder.org/) organisation, 
 which records various statistics for 142 countries betwen 1952 and 2007. This
 data is available as an [R package](https://cran.r-project.org/web/packages/gapminder/index.html),
 but we have prepared [csv]({{ page.root }}{% link data/gapminder.csv %}), 
